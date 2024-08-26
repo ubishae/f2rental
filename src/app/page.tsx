@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -72,7 +73,7 @@ export default function Component() {
                   </Button>
                 </form>
               </div>
-              <img
+              <Image
                 src="https://moodyins.com/wp-content/uploads/2021/12/Rental-cars.jpg"
                 alt="Hero"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
@@ -101,7 +102,7 @@ export default function Component() {
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col justify-between space-y-4 rounded-lg bg-card p-6 shadow-sm">
                 <div className="space-y-2">
-                  <img
+                  <Image
                     src="https://dam.alfuttaim.com/dx/api/dam/v1/collections/dc9b6eaa-cc71-4e6b-b9a8-2ede7939749f/items/636636eb-97a8-4c33-9018-dd9aeeee4cb3/renditions/3a456e07-36a8-45e0-a80f-0cec233d81bd?binary=true"
                     alt="Car"
                     className="mx-auto aspect-video overflow-hidden rounded-lg object-cover object-center"
@@ -124,7 +125,7 @@ export default function Component() {
               </div>
               <div className="flex flex-col justify-between space-y-4 rounded-lg bg-card p-6 shadow-sm">
                 <div className="space-y-2">
-                  <img
+                  <Image
                     src="https://dam.alfuttaim.com/dx/api/dam/v1/collections/64cc24aa-9710-4429-b8ee-1f0fe366dcba/items/344d52e3-cf37-4d69-9bfd-806217eabadb/renditions/de6f8ecc-4897-420e-b494-7b6785fbcc28?binary=true"
                     alt="Car"
                     className="mx-auto aspect-video overflow-hidden rounded-lg object-cover object-center"
@@ -147,7 +148,7 @@ export default function Component() {
               </div>
               <div className="flex flex-col justify-between space-y-4 rounded-lg bg-card p-6 shadow-sm">
                 <div className="space-y-2">
-                  <img
+                  <Image
                     src="https://i.pinimg.com/originals/af/8b/2b/af8b2bddab3f12fe5117e814535bf0f8.png"
                     alt="Car"
                     className="mx-auto aspect-video overflow-hidden rounded-lg object-cover object-center"
@@ -213,9 +214,9 @@ export default function Component() {
                   </div>
                 </div>
                 <div className="text-muted-foreground">
-                  "I had a fantastic experience renting a car from this\n
+                  &quot;I had a fantastic experience renting a car from this\n
                   platform. The process was seamless, and the car was in\n
-                  excellent condition. Highly recommended!"
+                  excellent condition. Highly recommended!&quot;
                 </div>
               </div>
               <div className="flex flex-col justify-between space-y-4 rounded-lg bg-card p-6 shadow-sm">
@@ -243,10 +244,10 @@ export default function Component() {
                   </div>
                 </div>
                 <div className="text-muted-foreground">
-                  "I was impressed by the wide selection of cars and the\n
+                  &quot;I was impressed by the wide selection of cars and the\n
                   competitive prices. The rental process was a breeze, and\n the
-                  customer service was excellent. I'll definitely be\n using
-                  this platform again."
+                  customer service was excellent. I&apos;ll definitely be\n
+                  using this platform again.&quot;
                 </div>
               </div>
             </div>
